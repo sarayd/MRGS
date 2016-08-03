@@ -7,20 +7,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Welcome!"
-        android:id="@+id/textView3"
-        android:layout_gravity="center_horizontal" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView"
-        android:layout_gravity="center_horizontal" />
+        android:text="Thank you! Your order will be ready soon"
+        android:id="@+id/textView2"
+        android:layout_gravity="center" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button2"
+        android:text="New Order"
+        android:id="@+id/button"
         android:layout_gravity="center_horizontal" />
 </LinearLayout>

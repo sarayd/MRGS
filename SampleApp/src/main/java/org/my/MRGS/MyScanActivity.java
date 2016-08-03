@@ -1,4 +1,4 @@
-package org.my.scanExample;
+package org.my.MRGS;
 
 import android.app.Activity;
 import android.content.Intent;

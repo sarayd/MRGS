@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="org.my.scanExample"
+          package="org.my.MRGS"
           android:versionCode="1"
           android:versionName="1.0">
     <uses-sdk android:minSdkVersion="8"/>
@@ -12,7 +12,7 @@
 
     <application android:label="card.io example"
             android:theme="@style/MyTheme">
-        <activity android:name="MyScanActivity"
+        <activity android:name="org.my.MRGS.MyScanActivity"
                   android:label="card.io example">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -24,5 +24,8 @@
                   android:hardwareAccelerated="true"/>
         <activity android:name="io.card.payment.DataEntryActivity" android:screenOrientation="portrait"/>
 
+        <activity android:name="org.my.MRGS.StartActivity" android:screenOrientation="portrait"/>
+        <activity android:name="org.my.MRGS.ScanItemActivity" android:screenOrientation="portrait"/>
+        <activity android:name="org.my.MRGS.ThanksActivity" android:screenOrientation="portrait"/>
     </application>
 </manifest> 
