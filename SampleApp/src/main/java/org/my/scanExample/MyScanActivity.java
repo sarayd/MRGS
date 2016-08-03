@@ -24,7 +24,7 @@ public class MyScanActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.scan_credit_card);
 
         resultTextView = (TextView) findViewById(R.id.resultTextView);
         scanButton = (Button) findViewById(R.id.scanButton);
