@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">MRGS</string>
     <string name="action_settings">Settings</string>
+    <string name="order_list">Order List</string>
+    <string name="checkout">Check Out</string>
+    <string name="plus">+</string>
+    <string name="menu_code">Menu Code</string>
+    <string name="menu_scanning">Scanning…</string>
 </resources>
